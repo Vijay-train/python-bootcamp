@@ -1,5 +1,5 @@
 '''
-Dummy
+Lists
 
 stops = ["MG Road", "Indiranagar", "Koramangala", "HSR Layout"]
 
@@ -9,7 +9,7 @@ Access
 
 
 ** Problem **
-* Create a list of numbers 1 to 10 using range() and list()
+* Create a list of numbers 1 to 10 
 * Print just the middle 4 numbers (positions 3 to 6) using a slice
 
 Modify
@@ -45,18 +45,21 @@ Why Tuple?
 Homework
 Create a todo app
 Options 
-(1) to add an item (2) to delete an item at index (3) to remove the top item (4) to sort the list (5) To print the list (6) Exit the app
+Choose an option
+(1) to add an item (2) to delete an item at index (3) to remove the last item (4) to sort the list
+ (5) To print the list (6) Exit the app
 
 On (1)
-- Able to enter twist items
-- -1 to go to prev menu
+- "Enter a task:"
+repeat
+- "-1" to go to prev menu
 
 On (2)
 - Ask for index,
 - Delete that entry and print the list
 
 On (3)
-- Remove the top element and print the list
+- Remove the last element and print the list
 
 On (4)
 - Sort the list and print
@@ -65,3 +68,50 @@ On (5)
 - Exit the app
 
 '''
+
+stops = ["d","z","c","a"]
+
+'''
+print(stops)
+
+print (stops[0])
+print(stops[-1])
+print(stops[0:2])
+print(stops[:2])
+print(stops[2:4])
+
+'''
+# modify
+stops.append("A1")
+print(stops)
+
+#stops.insert(1,"I1")
+# print(stops)
+
+stops.insert(-1,"I-1")
+print(stops)
+
+stops.insert(-1,"I-2")
+print(stops)
+
+# remove items from list
+
+# stops.remove("4")
+# print(stops)
+
+
+stops.pop()
+print(stops)
+
+stops.sort()
+print(stops)
+
+stops.reverse()
+print(stops)
+
+// todo app
+
+
+
+
+
