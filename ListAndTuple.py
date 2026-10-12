@@ -81,6 +81,8 @@ print(stops[:2])
 print(stops[2:4])
 
 '''
+
+'''
 # modify
 stops.append("A1")
 print(stops)
@@ -109,7 +111,37 @@ print(stops)
 stops.reverse()
 print(stops)
 
-// todo app
+# todo app
+
+
+
+
+# Tuples
+loc = ("Hyd","DW","Mumbai")
+#print (loc)
+#print(loc[1])
+
+print (loc[0])
+
+# Student ... name, roll number, grade
+# print roll number , name, grade
+
+'''
+
+# tuple of lists
+cities =( ["mumbai",5000],["hyd",1000],["DW",50])
+print(cities)
+
+
+
+"Mumbai has a population of 5000"
+for city,pop in cities:
+    print(city,"has a population of " , city)
+# why use comma when we can use +
+
+# Learn and be curious
+
+
 
 
 
