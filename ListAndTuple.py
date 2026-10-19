@@ -128,8 +128,14 @@ print (loc[0])
 
 '''
 
+#tuple
+testTuple = (12,23,34)
+testTuple[0] = 20
+
 # tuple of lists
 cities =( ["mumbai",5000],["hyd",1000],["DW",50])
+print(cities)
+cities[0][0] = "Ahm"
 print(cities)
 
 
@@ -139,7 +145,11 @@ for city,pop in cities:
     print(city,"has a population of " , city)
 # why use comma when we can use +
 
+
+
 # Learn and be curious
+
+
 
 
 
