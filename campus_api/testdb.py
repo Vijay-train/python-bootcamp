@@ -1,8 +1,9 @@
 
 import psycopg
 from psycopg.rows import dict_row
- 
-URL = "postgresql://postgres:postgres@localhost/testdb"
+
+ # ALTER USER postgres PASSWORD 'postgres';
+URL = "postgresql://postgres:postgres@localhost/TestDB1"
  
 def get_conn():
     return psycopg.connect(URL, row_factory=dict_row)
